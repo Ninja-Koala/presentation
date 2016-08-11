@@ -1,0 +1,210 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fancyslides Presentation
+% LaTeX Template
+% Version 1.0 (30/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% The Fancyslides class was created by:
+% Paweł Łupkowski (pawel.lupkowski@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{fancyslides}
+
+\usepackage[utf8]{inputenc} % Allows the usage of non-english characters
+\usepackage{librebaskerville} % Use the Times font
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage[percent]{overpic}
+\graphicspath{{images/}} % Location of the slide background and figure files
+
+% Beamer options - do not change
+\usetheme{default} 
+\setbeamertemplate{navigation symbols}{} % Disable the slide navigation buttons on the bottom of each slide
+\setbeamercolor{structure}{fg=\yourowntexcol} % Define the color of titles and fixed text elements (e.g. bullet points)
+\setbeamercolor{normal text}{fg=\yourowntexcol} % Define the color of text in the presentation
+
+%------------------------------------------------
+% COLORS
+% The following colors are predefined in this class: white, black, gray, blue, green and orange
+
+% Define your own color as follows:
+\definecolor{cdv}{HTML}{3FBC7C}
+
+\newcommand{\structureopacity}{0.75} % Opacity (transparency) for the structure elements (boxes and circles)
+
+\newcommand{\strcolor}{cdv} % Set the color of structure elements (boxes and circles)
+\newcommand{\yourowntexcol}{white} % Set the text color
+
+\begin{document}
+
+%------------------------------------------------
+
+\fbckg{Kacheln.jpg} % Slide background image
+\begin{frame}
+\begin{center}
+\begin{overpic}[scale=0.8]{CDV_Logo.eps}
+\put (18,10) {Ein Vortrag von Felix Potthast und Daniel Busch}
+\end{overpic}
+\end{center}
+\end{frame}
+
+%------------------------------------------------
+
+\fbckg{Kacheln.jpg} % Slide background image
+\begin{frame}
+\misc{
+\Huge
+Inhalt\\
+\Large
+\begin{flushleft}
+\fitem{Was ist das Coding da Vinci?}
+\fitem{Geschichte des Coding da Vinci}
+\fitem{Beispielprojekte}
+\fitem{Unser Projekt: Pyanola}
+\fitem{Ausblick}
+\fitem{Links}
+\end{flushleft}
+}
+\end{frame}
+
+%------------------------------------------------
+
+\fbckg{Kacheln.jpg} % Slide background image
+\begin{frame}
+\misc{
+\Huge
+Was ist das Coding da Vinci?\\
+\Large
+\begin{flushleft}
+\fitem{deutsche Kulturinstitutionen stellen offene Daten bereit}
+\fitem{Kultur-Hackathon}
+\fitem{Auftaktveranstaltung, dann 10 Wochen Sprint}
+\fitem{Preisverleihung in Berlin}
+\fitem{Ergebnisse stehen unter freier Lizenz}
+\end{flushleft}
+}
+\end{frame}
+
+%------------------------------------------------
+
+\fbckg{Kacheln.jpg} % Slide background image
+\begin{frame}
+\misc{
+\Huge
+Veranstalter\\
+\begin{center}
+\includegraphics[scale=0.1]{okfde.eps}\, 
+\includegraphics[scale=0.2]{WMD.eps}\,  \\
+\smallskip
+\includegraphics[scale=0.2]{DDB.eps}\, 
+\includegraphics[scale=0.3]{digis.png}\, 
+\end{center}
+}
+\end{frame}
+
+%------------------------------------------------
+
+\fbckg{Kacheln.jpg} % Slide background image
+\begin{frame}
+\misc{
+\Huge
+Geschichte des Coding da Vinci\\
+\Large
+\begin{flushleft}
+\fitem{Erstmals 2014}
+\fitem{Damals 16 Kulturinstitutionen mit 24 Datensets}
+\fitem{17 Projekte fertig gestellt}
+\fitem{Wiederholung 2015}
+\fitem{Diesesmal 33 Kulturinstitutionen mit 47 Datensets}
+\fitem{20 Projekte fertig gestellt}
+\end{flushleft}
+}
+\end{frame}
+
+%------------------------------------------------
+
+\fbckg{Kacheln.jpg} % Slide background image
+\begin{frame}
+\misc{
+\Huge
+Beispielprojekte\\
+\Large
+\begin{flushleft}
+\fitem{Cyberbeetle - Käfer Roboter}
+\fitem{inside - 19xx - Website über verbotene Bücher}
+\fitem{imperii-viz - Website über Kaiser und Könige}
+\fitem{floradex - App zur Bestimmung von Pflanzen}
+\fitem{Bilder der Revolte - Fotos der 68er Bewegung}
+\end{flushleft}
+}
+\end{frame}
+
+%------------------------------------------------
+
+\fbckg{Kacheln.jpg} % Slide background image
+\begin{frame}
+\misc{
+\Huge
+Unser Projekt: Pyanola\\
+\Large
+\begin{flushleft}
+\fitem{Klavierrollen vom deutschen Museum}
+\fitem{Analyse, Generierung von MIDI Dateien}
+\fitem{Präsentation auf einer Website}
+\fitem{Status: fast fertig ;)}
+\end{flushleft}
+}
+\end{frame}
+
+%------------------------------------------------
+
+\fbckg{Kacheln.jpg} % Slide background image
+\begin{frame}
+\misc{
+\Huge
+Ausblick\\
+\Large
+\begin{flushleft}
+\fitem{2016 Kein Coding Da Vinci}
+\fitem{2017 "in neuem Gewand"}
+\end{flushleft}
+}
+\end{frame}
+
+%------------------------------------------------
+
+\fbckg{Kacheln.jpg} % Slide background image
+\begin{frame}
+\pointedsl{Fragen?}
+\end{frame}
+
+%------------------------------------------------
+
+\fbckg{Kacheln.jpg} % Slide background image
+\begin{frame}
+\misc{
+\Huge
+Links\\
+\Large
+\begin{flushleft}
+\fitem{http://codingdavinci.de/}
+\fitem{http://bilder-der-revolte.de/}
+\fitem{http://codingdavinci.de/projekte-2014/?project\_id=1}
+\fitem{http://wesuku.de/floradex/www/}
+\fitem{http://imperii-viz.de/}
+\end{flushleft}
+}
+\end{frame}
+
+%------------------------------------------------
+
+\end{document}
